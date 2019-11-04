@@ -1,0 +1,183 @@
+/*ya azul*/
+.fondorojo{
+	
+	background-color: #5858FA !important;
+
+	
+}
+
+.fondoverde2{
+    background-color: #04B404 !important;
+}
+.fondorojo2{
+    
+    background-color: red !important;
+    
+}
+
+.bordeazul{
+   
+    border-color: solid #2E2EFE;
+}
+/*
+body{
+    background-color: #A9BCF5 !important;
+}
+*/
+
+.letrablanca{
+	color:white !important;
+}
+
+.letranegrita{
+    font-weight:bold !important;
+}
+
+.letraazul{
+    color:blue !important;
+}
+
+.letraroja2{
+    color:red !important;
+}
+
+/*ya azul*/
+.letraroja{
+	color:#003C75 !important;
+}
+
+
+.fondotitulos{
+   background-color:#003C75 !important;
+}
+
+.fondogris{
+	background-color: #88897F !important;
+	
+	
+}
+.grande {
+    font-size: 20px;
+    
+}
+
+.anchonota{
+    width:40px;
+}
+
+.fondogrisclaro{
+    background-color: #E6E6E6 !important;
+    
+    
+}
+
+.masancha{
+    width:80% !important;
+}
+
+.letranegra{
+	color:black !important;
+}
+
+.titulosformu{
+	font-size:25px;
+	font-weight: bold;
+
+}
+
+/*MODAL ROTE Y OTRO*/
+
+
+.modalmask {
+    position: fixed;
+    font-family: Arial, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalmask:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.modalbox{
+    width: 40%;
+    position: relative;
+    padding: 5px 10px 10px 10px;
+    background: #fff;
+    border-radius:3px;
+    -webkit-transition: all 500ms ease-in;
+    -moz-transition: all 500ms ease-in;
+    transition: all 500ms ease-in;
+     
+}
+.movedown {
+    margin: 0 auto;
+}
+.rotate {
+    margin: 10% auto;
+    -webkit-transform: scale(-5,-5);
+    transform: scale(-5,-5);
+}
+.resize {
+    margin: 10% auto;
+    width:0;
+    height:0;
+ 
+}
+.modalmask:target .movedown{       
+    margin:10% auto;
+}
+.modalmask:target .rotate{     
+    transform: rotate(360deg) scale(1,1);
+        -webkit-transform: rotate(360deg) scale(1,1);
+}
+ 
+.modalmask:target .resize{
+    width:240px;
+    height:200px;
+}
+
+.cargarimagen{
+
+width:100px;
+height:140px;
+
+border:20px black;
+
+}
+
+.cargarimagen2{
+
+width:50px;
+height:70px;
+
+border:20px black;
+
+}
+
+.iconomenu{
+    color: #000000;
+}
+.adjuntedefoto{
+
+
+
+
+}
+
+.thumb {
+            height: 7em;
+            width: 8em;
+            border: 1px solid #000;
+            margin: 5px 5px 0 0;
+
+          }
+/*MODAL ROTE Y OTRO*/
